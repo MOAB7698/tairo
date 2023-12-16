@@ -1,0 +1,30 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "Nuxt.mdc",
+    "editor.formatOnSave": true
+  },
+  "tailwindCSS.experimental.configFile": ".demo/tailwind.config.ts",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "vue.codeActions.enabled": false,
+  "[typescript][vue]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  }
+}
